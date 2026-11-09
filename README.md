@@ -1,4 +1,4 @@
-# Coupling and Cumulative Dose Ordering in IFFL Models
+# Feedback and Resource Competition in Incoherent Feedforward Loops: When Is Cumulative Dose Ordering Preserved?
 
 Reproducibility check for the paper's fixed-model calculations. The scripts regenerate the response figures, expression metrics and cumulative dose-ordering certificates from the supplied model parameters.
 
