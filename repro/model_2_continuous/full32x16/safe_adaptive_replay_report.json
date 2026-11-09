@@ -1,0 +1,188 @@
+{
+  "passed": true,
+  "complete_replay": true,
+  "full_domain_certified": true,
+  "requested_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "fresh_ordinary_proposals": true,
+  "workers": 3,
+  "run_id": "20261109T105546_15",
+  "blocks": [
+    {
+      "block": 0,
+      "process_returncode": 0,
+      "seconds": 182.6373348236084,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block00/block_result.json"
+    },
+    {
+      "block": 1,
+      "process_returncode": 0,
+      "seconds": 182.60910820960999,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block01/block_result.json"
+    },
+    {
+      "block": 2,
+      "process_returncode": 0,
+      "seconds": 181.58087944984436,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block02/block_result.json"
+    },
+    {
+      "block": 3,
+      "process_returncode": 0,
+      "seconds": 179.29257369041443,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block03/block_result.json"
+    },
+    {
+      "block": 4,
+      "process_returncode": 0,
+      "seconds": 183.35044121742249,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block04/block_result.json"
+    },
+    {
+      "block": 5,
+      "process_returncode": 0,
+      "seconds": 182.38273930549622,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block05/block_result.json"
+    },
+    {
+      "block": 6,
+      "process_returncode": 0,
+      "seconds": 171.53267669677734,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block06/block_result.json"
+    },
+    {
+      "block": 7,
+      "process_returncode": 0,
+      "seconds": 172.722012758255,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "block07/block_result.json"
+    },
+    {
+      "block": 8,
+      "process_returncode": 0,
+      "seconds": 100.08941650390625,
+      "passed": true,
+      "gates": {
+        "fresh_accepted_subcover_strict": true,
+        "source_unchanged": true,
+        "reported_hashes_match_executed_sources": true,
+        "first_cell_strict": true,
+        "every_interior_horizon_strict": true,
+        "all_later_accepted_horizons_strict": true,
+        "tail_stability": true,
+        "finite24_and48": true,
+        "requested_dimensions": true
+      },
+      "result_file": "refine07last/block_result.json"
+    }
+  ],
+  "seconds": 537.7511558532715,
+  "scope": "A fresh report and successful process exit are mandatory; final full-domain promotion additionally requires the independent cover audit.",
+  "independent_cover_audit_returncode": 0,
+  "independent_cover_audit_stdout": "{\n  \"passed\": true,\n  \"accepted_sources\": 9,\n  \"accepted_rectangles\": 528,\n  \"missing\": [],\n  \"failures\": [],\n  \"mapping\": {\n    \"nominal_dose_ng\": [\n      20,\n      100\n    ],\n    \"delivered_lower_float\": 1963.935461105857,\n    \"delivered_upper_float\": 9924.549461357361,\n    \"exact_decimal_delivery_at20\": \"1963.93546110585712416\",\n    \"decimal_delivery_at100_lower\": \"9924.5494613573595770383441012152045435065374357190587090453939797454070192823039356468790697612862099343940167709820692981570545183478939810829765961255062499809731904925787882918743536780504297000510\",\n    \"decimal_delivery_at100_upper\": \"9924.5494613573595770383441012152045435065374357190587090453939797454070192823039356468790697612862099343940167709820692981570545183478939810829765961255062499809731904925787882918743536780504297000555\",\n    \"p_del\": \"1.006600546847303\",\n    \"strictly_increasing_delivery_map\": true,\n    \"log_dose_slope_to_nominal_slope\": \"partial_q C=(p_del/q) partial_log(k0) C; p_del/q>0 on20<=q<=100\",\n    \"initial_global_dose_cells\": 32,\n    \"global_cell_count\": 33,\n    \"loading_cells_each\": 16,\n    \"rectangle_count\": 528,\n    \"accepted_global_delivered_nodes\": [\n      1963.935461105857,\n      2065.923325112585,\n      2173.2074550153416,\n      2286.0628877777353,\n      2404.778943130298,\n      2529.659965279629,\n      2661.0261031347554,\n      2799.2141310509305,\n      2944.5783121949394,\n      3097.491306745279,\n      3258.3451272554903,\n      3427.552143629851,\n      3605.5461402877936,\n      3792.783428227285,\n      3989.744014838012,\n      4196.932834463396,\n      4414.881042866134,\n      4644.147378915781,\n      4885.319596989263,\n      5139.015973756447,\n      5405.886893213626,\n      5686.616514028344,\n      5981.92452347005,\n      6292.567982422947,\n      6619.34326621108,\n      6963.088106211095,\n      7324.683737486703,\n      7705.057157950556,\n      8105.183504845197,\n      8526.088554635513,\n      8968.851352721484,\n      9434.606979712842,\n      9676.477851916348,\n      9924.549461357361\n    ],\n    \"block_endpoints_exactly_contiguous\": true,\n    \"refined_interval_exactly_matches_superseded_interval\": true,\n    \"every_accepted_cell_output_strictly_negative\": true\n  },\n  \"global_bounds\": {\n    \"upper24\": {\n      \"upper\": -14.303467470868869,\n      \"limiting_block\": 0,\n      \"directory\": \"block00\"\n    },\n    \"upper48\": {\n      \"upper\": -1.9146515862434144,\n      \"limiting_block\": 7,\n      \"directory\": \"block07\"\n    },\n    \"upper_all_T_ge48\": {\n      \"upper\": -1.6810964923970355,\n      \"limiting_block\": 7,\n      \"directory\": \"block07\"\n    },\n    \"first_cell_production_upper\": {\n      \"upper\": -1.2114579396765486,\n      \"limiting_block\": 7,\n      \"directory\": \"block07\"\n    },\n    \"interior_cap_upper\": {\n      \"upper\": -6.055520554936046e-09,\n      \"limiting_block\": 7,\n      \"directory\": \"block07\"\n    },\n    \"limiting_later_rectangle\": {\n      \"block\": 7,\n      \"directory\": \"block07\",\n      \"local_dose_cell\": 2,\n      \"loading_cell\": 0,\n      \"delivered_interval\": [\n        8968.851352721484,\n        9434.606979712842\n      ],\n      \"loading_interval\": [\n        0.0,\n        0.0625\n      ],\n      \"later_upper\": -1.6810964923970355,\n      \"upper48_kernel\": -1.9146515862434144,\n      \"bridge_integral_upper\": 0.09633726826898262,\n      \"tail_integral_upper\": 0.0048601533050119175,\n      \"paired_S48_Q48_available\": false\n    },\n    \"minimum_tail_M_matrix_margin\": 0.09241540965651356\n  }\n}\n",
+  "independent_cover_audit_stderr": ""
+}

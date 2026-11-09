@@ -1,0 +1,275 @@
+{
+  "scope": "Reference numerical predictions from the fixed RNA models; not experimental observations.",
+  "RNA_rows": [
+    {
+      "dose_ng": 20.0,
+      "loading": 0.0,
+      "cell": "reference",
+      "Dinf": 0.0,
+      "E": 0.0,
+      "R": 0.0,
+      "endpoint_relative_change": 0.0,
+      "peak_time_shift": 0.0
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.125,
+      "cell": "reference",
+      "Dinf": 0.024247507348067354,
+      "E": -0.014232762068525076,
+      "R": 0.03296196911842808,
+      "endpoint_relative_change": 0.003221265438612564,
+      "peak_time_shift": 0.09355080529384807
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.25,
+      "cell": "reference",
+      "Dinf": 0.04737899150871703,
+      "E": -0.027989519291262335,
+      "R": 0.06418527626730886,
+      "endpoint_relative_change": 0.006397839448033071,
+      "peak_time_shift": 0.18502858904033204
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.375,
+      "cell": "reference",
+      "Dinf": 0.06946839155855555,
+      "E": -0.04129543995538645,
+      "R": 0.09379525610115846,
+      "endpoint_relative_change": 0.009531395278043808,
+      "peak_time_shift": 0.27452156099612246
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.5,
+      "cell": "reference",
+      "Dinf": 0.09058333052455364,
+      "E": -0.05417388107730751,
+      "R": 0.12190585164147971,
+      "endpoint_relative_change": 0.012623509509951392,
+      "peak_time_shift": 0.3621117045815776
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.625,
+      "cell": "reference",
+      "Dinf": 0.11078577101406717,
+      "E": -0.06664655241670718,
+      "R": 0.14862085715225426,
+      "endpoint_relative_change": 0.015675669545476723,
+      "peak_time_shift": 0.4478763997432864
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.75,
+      "cell": "reference",
+      "Dinf": 0.13013259115944015,
+      "E": -0.07873366268434359,
+      "R": 0.17403500352996326,
+      "endpoint_relative_change": 0.01868928037351414,
+      "peak_time_shift": 0.5318886465250383
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 0.875,
+      "cell": "reference",
+      "Dinf": 0.1486760919199935,
+      "E": -0.09045405018700835,
+      "R": 0.19823490884050465,
+      "endpoint_relative_change": 0.02166567069737635,
+      "peak_time_shift": 0.6142164720106855
+    },
+    {
+      "dose_ng": 20.0,
+      "loading": 1.0,
+      "cell": "reference",
+      "Dinf": 0.16646444511123168,
+      "E": -0.10182529983245492,
+      "R": 0.22129991301123164,
+      "endpoint_relative_change": 0.02460609849466211,
+      "peak_time_shift": 0.6949245929765748
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.0,
+      "cell": "reference",
+      "Dinf": 0.0,
+      "E": 0.0,
+      "R": 0.0,
+      "endpoint_relative_change": 0.0,
+      "peak_time_shift": 0.0
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.125,
+      "cell": "reference",
+      "Dinf": 0.013701732897241614,
+      "E": -0.008482926041653202,
+      "R": 0.01938561207145839,
+      "endpoint_relative_change": 0.002175050303809156,
+      "peak_time_shift": 0.054095950664052594
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.25,
+      "cell": "reference",
+      "Dinf": 0.027040925758378888,
+      "E": -0.01679826733656153,
+      "R": 0.038168911801060856,
+      "endpoint_relative_change": 0.004335284389374472,
+      "peak_time_shift": 0.10749463865958475
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.375,
+      "cell": "reference",
+      "Dinf": 0.040031583982350044,
+      "E": -0.024951267704920937,
+      "R": 0.0563756046952979,
+      "endpoint_relative_change": 0.006481031807744175,
+      "peak_time_shift": 0.160213825859147
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.5,
+      "cell": "reference",
+      "Dinf": 0.052687006904003075,
+      "E": -0.03294694654227554,
+      "R": 0.07403000430794715,
+      "endpoint_relative_change": 0.008612610853124814,
+      "peak_time_shift": 0.21227028612728738
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.625,
+      "cell": "reference",
+      "Dinf": 0.06501983155170797,
+      "E": -0.04079011097868591,
+      "R": 0.09115512333620657,
+      "endpoint_relative_change": 0.010730329087516921,
+      "peak_time_shift": 0.26367976843814667
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.75,
+      "cell": "reference",
+      "Dinf": 0.07704207313553858,
+      "E": -0.0484853672429513,
+      "R": 0.10777275774473838,
+      "endpoint_relative_change": 0.012834483824532006,
+      "peak_time_shift": 0.3144578871438881
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 0.875,
+      "cell": "reference",
+      "Dinf": 0.0887651625784441,
+      "E": -0.05603713129240653,
+      "R": 0.12390356452664708,
+      "endpoint_relative_change": 0.014925362591797109,
+      "peak_time_shift": 0.36461971115410563
+    },
+    {
+      "dose_ng": 50.0,
+      "loading": 1.0,
+      "cell": "reference",
+      "Dinf": 0.10019998150373302,
+      "E": -0.06344963876384915,
+      "R": 0.1395671336512414,
+      "endpoint_relative_change": 0.01700324356576388,
+      "peak_time_shift": 0.41417973081835413
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.0,
+      "cell": "reference",
+      "Dinf": 0.0,
+      "E": 0.0,
+      "R": 0.0,
+      "endpoint_relative_change": 0.0,
+      "peak_time_shift": 0.0
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.125,
+      "cell": "reference",
+      "Dinf": 0.007986105384041455,
+      "E": -0.005159204271271031,
+      "R": 0.01165686582430081,
+      "endpoint_relative_change": 0.001617534469164461,
+      "peak_time_shift": 0.03207841970266756
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.25,
+      "cell": "reference",
+      "Dinf": 0.015847717099980164,
+      "E": -0.010256993493805737,
+      "R": 0.023096166407335805,
+      "endpoint_relative_change": 0.0032303926719474685,
+      "peak_time_shift": 0.06391124614131094
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.375,
+      "cell": "reference",
+      "Dinf": 0.023587693392688108,
+      "E": -0.015294524961947015,
+      "R": 0.03432349018008074,
+      "endpoint_relative_change": 0.0048386402367068815,
+      "peak_time_shift": 0.09550215886489433
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.5,
+      "cell": "reference",
+      "Dinf": 0.031208806237182717,
+      "E": -0.02027292608707312,
+      "R": 0.04534424290059036,
+      "endpoint_relative_change": 0.00644234143438549,
+      "peak_time_shift": 0.1268549481190604
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.625,
+      "cell": "reference",
+      "Dinf": 0.03871374459775916,
+      "E": -0.025193295377277554,
+      "R": 0.05616365489585862,
+      "endpoint_relative_change": 0.008041559215699268,
+      "peak_time_shift": 0.15797266665800436
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.75,
+      "cell": "reference",
+      "Dinf": 0.0461051174324822,
+      "E": -0.030056703378158356,
+      "R": 0.06678678796674098,
+      "endpoint_relative_change": 0.009636355247667927,
+      "peak_time_shift": 0.18885918894678966
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 0.875,
+      "cell": "reference",
+      "Dinf": 0.05338545669678048,
+      "E": -0.034864193576506705,
+      "R": 0.07721854197376221,
+      "endpoint_relative_change": 0.011226789950633531,
+      "peak_time_shift": 0.2195179745255036
+    },
+    {
+      "dose_ng": 100.0,
+      "loading": 1.0,
+      "cell": "reference",
+      "Dinf": 0.06055722013291897,
+      "E": -0.03961678326861022,
+      "R": 0.0874636611208337,
+      "endpoint_relative_change": 0.012812922528672166,
+      "peak_time_shift": 0.2499516714422505
+    }
+  ]
+}

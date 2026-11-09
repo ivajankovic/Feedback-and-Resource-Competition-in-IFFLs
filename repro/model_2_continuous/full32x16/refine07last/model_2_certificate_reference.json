@@ -1,0 +1,34 @@
+{
+  "mechanism": "model_2",
+  "cell": "reference",
+  "modality": "RNA",
+  "dose_ng": [
+    20,
+    100
+  ],
+  "loading": [
+    0,
+    1
+  ],
+  "dose_cells": 2,
+  "loading_cells": 16,
+  "time_cells": 1220,
+  "bridge_end_hours": 96.0,
+  "max_state_tube_radius": 0.0007961994407504622,
+  "max_residual": 0.0027445568008150904,
+  "upper_cumulative_log_burden_slope": {
+    "24": -46.54329544074091,
+    "48": -19.63849876147882
+  },
+  "all_positive_horizons_through48": true,
+  "max_first_cell_production_upper": -1.242515590680505,
+  "max_interior_cap": -6.210763455149901e-09,
+  "upper_all_T_ge48": -19.437966414083004,
+  "tail_M_matrix_margin": 0.09241540965651356,
+  "all_later_rectangles_strict": true,
+  "maximum_weighted_flow_growth_per_cell": 0.017719600749275966,
+  "seconds": 99.62560391426086,
+  "method": "parameter-degree(3,2)-time-degree7 Bernstein residual tubes; free-RNA absolute-sensitivity Metzler flow; first-cell/interior tests; finite bridge and analytic M-matrix tail",
+  "arithmetic": "custom outward-rounded IEEE754 binary64 primitives; explicit Decimal delivery cover",
+  "passed": true
+}

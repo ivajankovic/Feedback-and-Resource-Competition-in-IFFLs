@@ -1,0 +1,7 @@
+{
+  "description": "Fresh q=20 ng reference peaks obtained by scalar maximization; same fixed fit and model output units as the manuscript.",
+  "model_1": 23.006217605026208,
+  "model_1_reference_peak_time_h": 7.615548677932601,
+  "model_2": 15.521183878498343,
+  "model_2_reference_peak_time_h": 8.267037597674788
+}

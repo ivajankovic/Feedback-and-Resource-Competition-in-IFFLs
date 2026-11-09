@@ -1,0 +1,408 @@
+{
+  "passed": true,
+  "blocks": [
+    {
+      "unit": "block00",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 0,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "1fb668ee309877b346aa2deab8bfe2fce781f28a6f23995f7e1deb8e21e3d95e",
+      "seconds": 19.068170309066772,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        2286.0628877777353,
+        2404.778943130298
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -6.2432882655939625,
+      "Q48_upper": 0.01344063803869593,
+      "bridge_integral_upper": 0.04824694511472544,
+      "tail_integral_upper": 0.0020578941195982512,
+      "adverse_budget_upper": 0.12610261504464862,
+      "paired_later_upper_recomputed": -6.117185650549313,
+      "original_all_later_upper": -6.117185650549312
+    },
+    {
+      "unit": "block01",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 1,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "596670343d68b0c6a6fd4e2d3d8c3e119c3c6ddba298ec2aa05d640f2387843b",
+      "seconds": 19.483039617538452,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        2799.2141310509305,
+        2944.5783121949394
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -5.567197202098753,
+      "Q48_upper": 0.014643979807618283,
+      "bridge_integral_upper": 0.05500846292818664,
+      "tail_integral_upper": 0.002374052619600878,
+      "adverse_budget_upper": 0.14148789655059915,
+      "paired_later_upper_recomputed": -5.425709305548153,
+      "original_all_later_upper": -5.4257093055481525
+    },
+    {
+      "unit": "block02",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 2,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "e150f81301d090f156db6988f5cfdd83fe7faf6e60b6373be54bc8bb60574abb",
+      "seconds": 18.57131052017212,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        3427.552143629851,
+        3605.5461402877936
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -4.885360495924301,
+      "Q48_upper": 0.01579732970301654,
+      "bridge_integral_upper": 0.06212947271671894,
+      "tail_integral_upper": 0.0027220587191949756,
+      "adverse_budget_upper": 0.15732451121714297,
+      "paired_later_upper_recomputed": -4.728035984707157,
+      "original_all_later_upper": -4.728035984707156
+    },
+    {
+      "unit": "block03",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 3,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "feb120fe2604e234f656c5d6ca48fbfb770c993bd9377d56d45a5196bca77d88",
+      "seconds": 19.135991096496582,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        4196.932834463396,
+        4414.881042866134
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -4.328893185005586,
+      "Q48_upper": 0.01689325097246483,
+      "bridge_integral_upper": 0.06947035500036092,
+      "tail_integral_upper": 0.0031018537132779657,
+      "adverse_budget_upper": 0.1733647303842661,
+      "paired_later_upper_recomputed": -4.155528454621319,
+      "original_all_later_upper": -4.155528454621318
+    },
+    {
+      "unit": "block04",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 4,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "b5a5856091500d175424e52c456e2f9927683073b956e2329ffd9b0d730bf1f8",
+      "seconds": 19.967528104782104,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        5139.015973756447,
+        5405.886893213626
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -3.847477043498464,
+      "Q48_upper": 0.01796231429971997,
+      "bridge_integral_upper": 0.07687718647154035,
+      "tail_integral_upper": 0.003514994193914748,
+      "adverse_budget_upper": 0.18947089229898104,
+      "paired_later_upper_recomputed": -3.6580061511994826,
+      "original_all_later_upper": -3.658006151199482
+    },
+    {
+      "unit": "block05",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 5,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "62848b6d506c69cf16cbadcafd52f7fe41321504339486680c33417b1b445ecf",
+      "seconds": 20.073441743850708,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        6292.567982422947,
+        6619.34326621108
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -3.4087014776913866,
+      "Q48_upper": 0.019067684893016176,
+      "bridge_integral_upper": 0.08418106522421832,
+      "tail_integral_upper": 0.003963797465061973,
+      "adverse_budget_upper": 0.2055944181149448,
+      "paired_later_upper_recomputed": -3.2031070595764413,
+      "original_all_later_upper": -3.2031070595764413
+    },
+    {
+      "unit": "block06",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "block_index": 6,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "4b0681749e8075e24a80ca182fc40852aff015f42604cd7d25122fc227e5f181",
+      "seconds": 18.326168537139893,
+      "limiting_later_cell_index": [
+        3,
+        0
+      ],
+      "delivered_burden_interval": [
+        7705.057157950556,
+        8105.183504845197
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -2.9880426594126903,
+      "Q48_upper": 0.02031217261988488,
+      "bridge_integral_upper": 0.09121580946284857,
+      "tail_integral_upper": 0.004451849585129604,
+      "adverse_budget_upper": 0.22182894225553015,
+      "paired_later_upper_recomputed": -2.76621371715716,
+      "original_all_later_upper": -2.766213717157159
+    },
+    {
+      "unit": "block07",
+      "accepted_original_dose_rows": [
+        0,
+        1,
+        2
+      ],
+      "block_index": 7,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "900179d4696f5afb79936155cee4a5a9dad9ee764517037d7bf1e93628b96caf",
+      "seconds": 17.06880259513855,
+      "limiting_later_cell_index": [
+        2,
+        0
+      ],
+      "delivered_burden_interval": [
+        8968.851352721484,
+        9434.606979712842
+      ],
+      "loading_interval": [
+        0.0,
+        0.0625
+      ],
+      "S48_upper": -1.9163650605263902,
+      "Q48_upper": 0.021666437936237508,
+      "bridge_integral_upper": 0.09633726826898262,
+      "tail_integral_upper": 0.0048601533050119175,
+      "adverse_budget_upper": 0.2352685681293542,
+      "paired_later_upper_recomputed": -1.6810964923970357,
+      "original_all_later_upper": -1.6810964923970355
+    },
+    {
+      "unit": "refine07last",
+      "accepted_original_dose_rows": [
+        0,
+        1
+      ],
+      "block_index": 8,
+      "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+      "source_hashes_verified": true,
+      "all_original_arrays_bitwise_identical": true,
+      "array_checks": {
+        "ks": true,
+        "es": true,
+        "upper24": true,
+        "upper48": true,
+        "later": true,
+        "all_time_ok": true,
+        "terminal_absolute": true,
+        "bridge": true,
+        "tail": true
+      },
+      "validated_env_sha256": "0bfc691bd9b84a6adbca01a12c2faea5abd1a28ae3067f6579eca794cccc9236",
+      "seconds": 16.932175874710083,
+      "limiting_later_cell_index": [
+        1,
+        15
+      ],
+      "delivered_burden_interval": [
+        9676.477851916348,
+        9924.549461357361
+      ],
+      "loading_interval": [
+        0.9375,
+        1.0
+      ],
+      "S48_upper": -19.640095639819076,
+      "Q48_upper": 0.016042169831220643,
+      "bridge_integral_upper": 0.0885074488575351,
+      "tail_integral_upper": 0.003976282774849348,
+      "adverse_budget_upper": 0.20212922573606557,
+      "paired_later_upper_recomputed": -19.437966414083007,
+      "original_all_later_upper": -19.437966414083004
+    }
+  ],
+  "seconds": 58.061015129089355
+}

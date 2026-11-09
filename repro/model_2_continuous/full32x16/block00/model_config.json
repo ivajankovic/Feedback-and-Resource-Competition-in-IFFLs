@@ -1,0 +1,47 @@
+{
+  "params": {
+    "length_output": 238,
+    "length_model_1": 119,
+    "length_model_2": 422,
+    "length_burden": 238,
+    "eta_minus_model_1": 0.6,
+    "eta_minus_model_2": 6,
+    "eta_plus_model_1": 0.6,
+    "eta_plus_model_2": 0.6,
+    "nu_minus": 0.0,
+    "nu_plus": 1.0,
+    "kappa_minus": 0.0,
+    "kappa_plus": 1.0,
+    "alpha": 144000.0,
+    "beta": 0.231,
+    "lambda_beta": 400.0,
+    "gamma": 12600.0,
+    "delta": 0.0266,
+    "theta": 0.0,
+    "total_rtx": 160.0,
+    "ribo_footprint_size": 10,
+    "total_rtl": 1000.0,
+    "mu": 0.029
+  },
+  "initial_conditions_DNA": {
+    "DNA_Output": 698.3,
+    "DNA_Repressor": 698.3,
+    "DNA_Burden": 474.8,
+    "RNA_Output": 0.0,
+    "RNA_Output_Repressor": 0.0,
+    "RNA_Repressor": 0.0,
+    "RNA_Burden": 0.0,
+    "Output": 0.0,
+    "Repressor": 0.0,
+    "Burden": 0.0
+  },
+  "initial_conditions_RNA": {
+    "RNA_Output": 798.6,
+    "RNA_Output_Repressor": 0.0,
+    "RNA_Repressor": 798.6,
+    "RNA_Burden": 532.4,
+    "Output": 0.0,
+    "Repressor": 0.0,
+    "Burden": 0.0
+  }
+}

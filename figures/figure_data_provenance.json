@@ -1,0 +1,9 @@
+{
+  "scope": "Ordinary fixed-fit numerical predictions; connecting curves do not certify intermediate doses or loadings.",
+  "inputs": {
+    "/workspace/scratch/784cceb44837/generic_revision_20261109/repository/Coupling and Cumulative Dose Ordering in IFFL Models/figures/repression_grid_independent_validation.json": "f02cab673c05efa6e998cfad369e3b62c4bc81a701e419bb4f4a5d4e6e9892da",
+    "/workspace/scratch/784cceb44837/generic_revision_20261109/repository/Coupling and Cumulative Dose Ordering in IFFL Models/figures/response_plot_data.npz": "29ceb2a838cfb78f1c405b9806a92478132f21a2faf92eb09065a1b0c0e1cd2b",
+    "/workspace/scratch/784cceb44837/generic_revision_20261109/repository/Coupling and Cumulative Dose Ordering in IFFL Models/figures/response_peak_normalization.json": "0a9dc6a2501fe6d3404eb667feafb26a0f6faabe59a44023e6bf7d0cb33a5351"
+  },
+  "typography": "Generic model labels are used consistently in the external plots."
+}

@@ -1,0 +1,13 @@
+state,initial_value,unit,meaning
+m,798.6,C,fixed free target RNA
+c,0,C,fixed bound target RNA
+Z,0,C,fixed free repressor
+Y,0,C,fixed Output
+r_R,798.6,C,fixed regulator RNA
+k,k0(q),C,burden RNA map in delivery_maps.csv
+Burden,0,C,burden reporter; present only in unreduced simulator
+M,798.6,C,M=m+c
+W,0,C,W=Z+c
+Cumulative_output,0,C h,integration state
+all_internal_logburden_sensitivities,0,state units,"sensitivities of m,c,Z,Y,M,W,C start at zero"
+burden_logburden_sensitivity,k0(q),C,partial_theta k(0)=k0(q); theta=log k0

@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "fitted_shared": {
+      "eta_minus_model_1": 0.06692577818942516,
+      "eta_minus_model_2": 0.020000000001760748,
+      "eta_plus_model_1": 0.1263872841653277,
+      "beta": 0.1193890945869268,
+      "lambda_beta": 0.20000000004585428,
+      "gamma": 950.0000000000172,
+      "delta": 0.1641158817587551,
+      "total_rtl": 6.0000000059384,
+      "mu": 0.1276752156176436,
+      "eta_plus_model_2": 3.8916882880809256,
+      "kappa_plus": 0.14846903082046173,
+      "theta": 0.010338778154126853,
+      "kappa_minus": 178.28921384752266
+    },
+    "nuisance_per_arm": {
+      "reference_model_1_RNA": {
+        "kappa_burden_circuit": 3.3456289296152404,
+        "p_dose_circuit": 1.1605277365477336
+      },
+      "reference_model_2_RNA": {
+        "kappa_burden_circuit": 3.6888344498607384,
+        "p_dose_circuit": 1.006600546847303
+      }
+    }
+  }
+}

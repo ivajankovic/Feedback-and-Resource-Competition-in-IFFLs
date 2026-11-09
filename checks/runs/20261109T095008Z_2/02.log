@@ -1,0 +1,12 @@
+model_1 20.0 complete
+model_1 50.0 complete
+model_1 100.0 complete
+model_2 20.0 complete
+model_2 50.0 complete
+model_2 100.0 complete
+{
+  "scope": "Independent sampled diagnostic only, no continuous-domain or all-horizon certificate.",
+  "seconds": 38.47322916984558,
+  "max_archive_error": 5.540237713042018e-11,
+  "max_sampled_S_theta": -6.3657180505337e-05
+}

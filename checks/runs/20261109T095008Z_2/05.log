@@ -1,0 +1,3 @@
+{"script": "certify.py", "sha256": "974c27eeccd009a48b5e8cbec0dc2284c6028824f411bca68e70b648ea581930", "exit_code": 0, "seconds": 217.67075371742249}
+{"script": "certify_tail.py", "sha256": "1fc0e7cef7a1b746861333f4aa8aa94e83d8ebb318952dd4f3c193d57743e59f", "exit_code": 0, "seconds": 33.45781660079956}
+{"passed": true, "bounds": {"24h": -57.70343326714796, "48h": -47.7467861870516, "all_T_ge_48h": -8.541739310171158}}

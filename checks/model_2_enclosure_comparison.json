@@ -1,0 +1,13 @@
+{
+  "scope": "Recorded numerical comparison at the identical model parameterization; this diagnostic is not rerun by reproduce.py. An inconclusive bound is not a sign reversal.",
+  "delivered_burden_interval_C": [
+    2173.2074550153416,
+    2228.921019316853
+  ],
+  "bilinear_S48_upper": 235.9793197189151,
+  "quadratic_S48_upper": -25.367049865760166,
+  "recorded_bilinear_proposal_seconds": 1.0535215260024415,
+  "recorded_bilinear_validation_seconds": 26.153068466999684,
+  "recorded_quadratic_total_seconds": 40.99126696586609,
+  "original_quadratic_total_seconds": 75.56131911277771
+}

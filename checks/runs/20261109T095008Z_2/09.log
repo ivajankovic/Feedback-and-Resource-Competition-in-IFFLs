@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Archived-record audit; not fresh interval residual validation.",
+  "global_archived_bounds": {
+    "upper24": -14.303467470868869,
+    "upper48": -1.9146515862434144,
+    "later_upper": -1.6810964923970355,
+    "first_cell_production_upper": -1.2114579396765486,
+    "interior_cap_upper": -6.055520554936046e-09,
+    "minimum_tail_M_matrix_margin": 0.09241540965651356
+  },
+  "failures": []
+}

@@ -1,0 +1,45 @@
+{
+  "unit": "block00",
+  "accepted_original_dose_rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "block_index": 0,
+  "scope": "Comparison-only reporting replay; original executed proof sources and interval outputs unchanged.",
+  "source_hashes_verified": true,
+  "all_original_arrays_bitwise_identical": true,
+  "array_checks": {
+    "ks": true,
+    "es": true,
+    "upper24": true,
+    "upper48": true,
+    "later": true,
+    "all_time_ok": true,
+    "terminal_absolute": true,
+    "bridge": true,
+    "tail": true
+  },
+  "validated_env_sha256": "1fb668ee309877b346aa2deab8bfe2fce781f28a6f23995f7e1deb8e21e3d95e",
+  "seconds": 19.068170309066772,
+  "limiting_later_cell_index": [
+    3,
+    0
+  ],
+  "delivered_burden_interval": [
+    2286.0628877777353,
+    2404.778943130298
+  ],
+  "loading_interval": [
+    0.0,
+    0.0625
+  ],
+  "S48_upper": -6.2432882655939625,
+  "Q48_upper": 0.01344063803869593,
+  "bridge_integral_upper": 0.04824694511472544,
+  "tail_integral_upper": 0.0020578941195982512,
+  "adverse_budget_upper": 0.12610261504464862,
+  "paired_later_upper_recomputed": -6.117185650549313,
+  "original_all_later_upper": -6.117185650549312
+}

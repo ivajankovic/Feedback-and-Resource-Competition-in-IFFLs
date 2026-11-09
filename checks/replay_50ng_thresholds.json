@@ -1,0 +1,201 @@
+{
+  "scope": "Ordinary numerical replay through the retained independent free-species ODE implementation at one committed fit. Radau/BDF agreement is a numerical diagnostic, not a validated interval error bound or experimental time-course validation.",
+  "nominal_burden_dose_ng": 50.0,
+  "reference_loading": 0.0,
+  "compared_loading": 1.0,
+  "observation_horizon_h": 48.0,
+  "solvers": {
+    "methods": [
+      "Radau",
+      "BDF"
+    ],
+    "rtol": 2e-12,
+    "atol": 2e-14,
+    "dense_output": true
+  },
+  "normalization": {
+    "abs_E48_percent": "100*abs(C48_loaded/C48_reference-1); C48 is the integrated unscaled Output concentration.",
+    "Dinf48_percent": "100*max_[0,48]|Y_loaded-Y_reference|/max_[0,48]Y_reference; both use the same mechanism and dose.",
+    "waveform_extrema": "Retained maximum(): endpoints plus local maxima bracketed on 3001 uniform times and refined by bounded scalar optimization with xatol=2e-11 h.",
+    "model_concentration_unit": "C; no physical concentration/fluorescence calibration is inferred."
+  },
+  "acceptance_absolute_tolerance_percentage_points": 1e-06,
+  "tolerance_scope": "Numerical replay agreement with four reported quantities and between solvers; separate from the illustrative biological/modeling tolerance of 10%.",
+  "results": [
+    {
+      "mechanism": "model_1",
+      "methods": {
+        "Radau": {
+          "abs_E48_percent": 6.743700356332216,
+          "Dinf48_percent": 11.283144328475153,
+          "reference_C48": 189.083553916518,
+          "loaded_C48": 176.33232561728417,
+          "k0_C": 5158.652042736461,
+          "p_del": 1.1605277365477336
+        },
+        "BDF": {
+          "abs_E48_percent": 6.743700356333293,
+          "Dinf48_percent": 11.28314432865582,
+          "reference_C48": 189.0835539167528,
+          "loaded_C48": 176.33232561750108,
+          "k0_C": 5158.652042736461,
+          "p_del": 1.1605277365477336
+        }
+      }
+    },
+    {
+      "mechanism": "model_2",
+      "methods": {
+        "Radau": {
+          "abs_E48_percent": 6.344963876384835,
+          "Dinf48_percent": 10.019998150445703,
+          "reference_C48": 156.29082496841883,
+          "loaded_C48": 146.3742285820688,
+          "k0_C": 4939.623433332187,
+          "p_del": 1.006600546847303
+        },
+        "BDF": {
+          "abs_E48_percent": 6.344963876387344,
+          "Dinf48_percent": 10.019998150538061,
+          "reference_C48": 156.29082496852214,
+          "loaded_C48": 146.37422858216163,
+          "k0_C": 4939.623433332187,
+          "p_del": 1.006600546847303
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "mechanism": "model_1",
+      "method": "Radau",
+      "check": "reported_quantity",
+      "quantity": "abs_E48_percent",
+      "expected_percent": 6.743700356332216,
+      "observed_percent": 6.743700356332216,
+      "absolute_difference_percentage_points": 0.0,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "method": "Radau",
+      "check": "reported_quantity",
+      "quantity": "Dinf48_percent",
+      "expected_percent": 11.283144328475153,
+      "observed_percent": 11.283144328475153,
+      "absolute_difference_percentage_points": 0.0,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "method": "BDF",
+      "check": "reported_quantity",
+      "quantity": "abs_E48_percent",
+      "expected_percent": 6.743700356332216,
+      "observed_percent": 6.743700356333293,
+      "absolute_difference_percentage_points": 1.077360423096252e-12,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "method": "BDF",
+      "check": "reported_quantity",
+      "quantity": "Dinf48_percent",
+      "expected_percent": 11.283144328475153,
+      "observed_percent": 11.28314432865582,
+      "absolute_difference_percentage_points": 1.8066792506488127e-10,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "check": "Radau_BDF_crosscheck",
+      "quantity": "abs_E48_percent",
+      "absolute_difference_percentage_points": 1.077360423096252e-12,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "check": "Radau_BDF_crosscheck",
+      "quantity": "Dinf48_percent",
+      "absolute_difference_percentage_points": 1.8066792506488127e-10,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "check": "only_waveform_exceeds_illustrative_10_percent",
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "method": "Radau",
+      "check": "reported_quantity",
+      "quantity": "abs_E48_percent",
+      "expected_percent": 6.3449638763849014,
+      "observed_percent": 6.344963876384835,
+      "absolute_difference_percentage_points": 6.661338147750939e-14,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "method": "Radau",
+      "check": "reported_quantity",
+      "quantity": "Dinf48_percent",
+      "expected_percent": 10.019998150445776,
+      "observed_percent": 10.019998150445703,
+      "absolute_difference_percentage_points": 7.283063041541027e-14,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "method": "BDF",
+      "check": "reported_quantity",
+      "quantity": "abs_E48_percent",
+      "expected_percent": 6.3449638763849014,
+      "observed_percent": 6.344963876387344,
+      "absolute_difference_percentage_points": 2.4424906541753444e-12,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "method": "BDF",
+      "check": "reported_quantity",
+      "quantity": "Dinf48_percent",
+      "expected_percent": 10.019998150445776,
+      "observed_percent": 10.019998150538061,
+      "absolute_difference_percentage_points": 9.228529052052181e-11,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "check": "Radau_BDF_crosscheck",
+      "quantity": "abs_E48_percent",
+      "absolute_difference_percentage_points": 2.5091040356528538e-12,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "check": "Radau_BDF_crosscheck",
+      "quantity": "Dinf48_percent",
+      "absolute_difference_percentage_points": 9.235812115093722e-11,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "check": "only_waveform_exceeds_illustrative_10_percent",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "runtime_seconds": 7.907301426999766,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "input_sha256": {
+    "checks/verify_repression_independent.py": "98f9982a5a07a800891bf993d13a23d3848456c7183e777e2932e5b5ea4321d6",
+    "repro/committed_fit.json": "119640ce00c1bfbb28f74964d5128a4a12a7f4fccdab3679ef9dd8646223b517",
+    "repro/model_config.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0"
+  },
+  "script_sha256": "8ff77ad9a771f2b0c0952f6d12f2ebf78dcdabbb7bf7f4ed03c2a9c568bce2a0"
+}

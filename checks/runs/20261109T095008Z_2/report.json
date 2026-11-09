@@ -1,0 +1,177 @@
+{
+  "run_id": "20261109T095008Z_2",
+  "started_at_utc": "2026-11-09T09:50:08.814901+00:00",
+  "mode": "full",
+  "completed": true,
+  "passed": true,
+  "steps": [
+    {
+      "name": "ODE and sensitivities",
+      "started_at_utc": "2026-11-09T09:50:08.827635+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "checks/verify_repression_independent.py"
+      ],
+      "returncode": 0,
+      "seconds": 28.23408678199985,
+      "log": "checks/runs/20261109T095008Z_2/01.log",
+      "completed_at_utc": "2026-11-09T09:50:37.062667+00:00",
+      "report": "checks/repression_independent_validation.json",
+      "report_sha256": "9265bb3c6ac26510caedf04c4e05c0bfa40a5e65292132b94c15d73650c2147a"
+    },
+    {
+      "name": "Dose/loading grid",
+      "started_at_utc": "2026-11-09T09:50:37.063130+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "checks/verify_repression_grid.py"
+      ],
+      "returncode": 0,
+      "seconds": 38.90883456499978,
+      "log": "checks/runs/20261109T095008Z_2/02.log",
+      "completed_at_utc": "2026-11-09T09:51:15.974413+00:00",
+      "report": "checks/repression_grid_independent_validation.json",
+      "report_sha256": "f02cab673c05efa6e998cfad369e3b62c4bc81a701e419bb4f4a5d4e6e9892da"
+    },
+    {
+      "name": "50 ng metrics",
+      "started_at_utc": "2026-11-09T09:51:15.974937+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "checks/replay_50ng_thresholds.py",
+        "--package-root",
+        ".",
+        "--output",
+        "checks/replay_50ng_thresholds.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.282791196999824,
+      "log": "checks/runs/20261109T095008Z_2/03.log",
+      "completed_at_utc": "2026-11-09T09:51:24.258944+00:00",
+      "report": "checks/replay_50ng_thresholds.json",
+      "report_sha256": "5caf614eb66daef57759756c82e6ffec80fdd7742f99889657750f8c7ae4d7cf"
+    },
+    {
+      "name": "Result figures",
+      "started_at_utc": "2026-11-09T09:51:24.259423+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "checks/replay_repression_figures.py",
+        "--package-root",
+        "."
+      ],
+      "returncode": 0,
+      "seconds": 11.16282929099998,
+      "log": "checks/runs/20261109T095008Z_2/04.log",
+      "completed_at_utc": "2026-11-09T09:51:35.423552+00:00",
+      "report": "checks/fresh_repression_figure_replay.json",
+      "report_sha256": "ecf7812e35ae663d034b9803e684a73e3d2e858561b679a6d29a9e46ecaa0833"
+    },
+    {
+      "name": "model_1 certificate",
+      "started_at_utc": "2026-11-09T09:51:35.424018+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "repro/replay_certificates.py",
+        "--fresh"
+      ],
+      "returncode": 0,
+      "seconds": 251.3155503349999,
+      "log": "checks/runs/20261109T095008Z_2/05.log",
+      "completed_at_utc": "2026-11-09T09:55:46.741338+00:00",
+      "report": "repro/replay_report.json",
+      "report_sha256": "cd0a68ee699cb5e7137c1ae3cce1caf7d9c4ce7a4215d6800115e9a9708873b7"
+    },
+    {
+      "name": "model_2 continuous certificate",
+      "started_at_utc": "2026-11-09T09:55:46.742634+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "repro/model_2_continuous/full32x16/replay_adaptive_certificate.py",
+        "--fresh",
+        "--workers",
+        "3"
+      ],
+      "returncode": 0,
+      "seconds": 539.0975940099997,
+      "log": "checks/runs/20261109T095008Z_2/06.log",
+      "completed_at_utc": "2026-11-09T10:04:45.840899+00:00",
+      "report": "repro/model_2_continuous/full32x16/safe_adaptive_replay_report.json",
+      "report_sha256": "a7599baf0f4bbede96839ea4df10467815c7f85f2c1c0a96919f945bddb21c70"
+    },
+    {
+      "name": "Paired tail margins",
+      "started_at_utc": "2026-11-09T10:04:45.841369+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "repro/model_2_continuous/full32x16/capture_adaptive_pairs.py"
+      ],
+      "returncode": 0,
+      "seconds": 58.106150809000155,
+      "log": "checks/runs/20261109T095008Z_2/07.log",
+      "completed_at_utc": "2026-11-09T10:05:43.948249+00:00",
+      "report": "repro/model_2_continuous/full32x16/adaptive_paired_reports/paired_summary.json",
+      "report_sha256": "38f801078e0062f2cd4627873bc0476c1f9651e4e001030bf78b5c819936b27c"
+    },
+    {
+      "name": "Independent cover audit",
+      "started_at_utc": "2026-11-09T10:05:43.949060+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "repro/model_2_continuous/tensor_audit/audit_adaptive_cover.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.3678824819999136,
+      "log": "checks/runs/20261109T095008Z_2/08.log",
+      "completed_at_utc": "2026-11-09T10:05:45.318485+00:00",
+      "report": "repro/model_2_continuous/tensor_audit/adaptive_cover_audit.json",
+      "report_sha256": "332f25b40d23822a0e727913584e3810e315e416e1cc64b64a33f9273bafae3b"
+    },
+    {
+      "name": "Certificate record audit",
+      "started_at_utc": "2026-11-09T10:05:45.320630+00:00",
+      "passed": true,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "checks/audit_model_2_archived_records.py",
+        "--root",
+        ".",
+        "--output",
+        "checks/audit_model_2_archived_records.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.113920754999981,
+      "log": "checks/runs/20261109T095008Z_2/09.log",
+      "completed_at_utc": "2026-11-09T10:05:45.435826+00:00",
+      "report": "checks/audit_model_2_archived_records.json",
+      "report_sha256": "b0d4ccb8e98793dc6b4d5895095ed005f2510f25e68237974fd0e582d63c647a"
+    }
+  ],
+  "scope": "Fixed RNA model predictions and certificates; no experimental data or fitting.",
+  "input_sha256": {
+    "repro/committed_fit.json": "119640ce00c1bfbb28f74964d5128a4a12a7f4fccdab3679ef9dd8646223b517",
+    "repro/model_config.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0"
+  },
+  "runner_sha256": "d1c4341ca2b71a8399987a7a09169245f0d0120e11bdb94eca8244a972884cf3",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8",
+      "pandas": "2.2.3"
+    }
+  },
+  "fresh_full_interval_certificates_passed": true,
+  "elapsed_seconds": 937.045453148,
+  "finished_at_utc": "2026-11-09T10:05:45.872684+00:00"
+}

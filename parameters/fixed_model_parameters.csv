@@ -1,0 +1,13 @@
+parameter,unit,model_1,model_2,status,between_mechanisms,source_or_formula
+beta,h^-1,0.1193890945869268,0.1193890945869268,direct fit,shared,fitted_shared.beta
+Delta,h^-1,0.0,0.02387781892285986,model_1: mechanism fixed; model_2: derived from fitted beta and lambda_beta,mechanism-specific,0 (model_1); beta*lambda_beta (model_2)
+omega,1,0.0,0.010338778154126853,model_1: mechanism fixed; model_2: direct fit,mechanism-specific,0 (model_1); fitted_shared.theta (model_2)
+eta_plus,C^-1 h^-1,0.1263872841653277,3.8916882880809256,direct fit,mechanism-specific,fitted_shared.eta_plus_model_1 / eta_plus_model_2
+eta_minus,h^-1,0.06692577818942516,0.020000000001760748,direct fit,mechanism-specific,fitted_shared.eta_minus_model_1 / eta_minus_model_2
+d,h^-1,0.29179109737639874,0.29179109737639874,derived from fit,shared,delta+mu
+kappa_K,C,51.58555653747377,51.58555653747377,derived from fit and fixed length,shared,(gamma/length_burden+kappa_minus)/(kappa_plus*length_burden/ribo_footprint_size)
+kappa_R,C,105.43036059012984,28.815494220734507,derived from fit and fixed length,mechanism-specific,(gamma/length_repression+kappa_minus)/(kappa_plus*length_repression/ribo_footprint_size)
+kappa_G,C,51.58555653747377,51.58555653747377,derived from fit and fixed length,shared,(gamma/length_output+kappa_minus)/(kappa_plus*length_output/ribo_footprint_size)
+gamma_R_R_tot,C h^-1,47.8991597112738,13.507109018108018,derived from fit and fixed length,mechanism-specific,gamma/length_repression*total_rtl
+gamma_G_R_tot,C h^-1,23.9495798556369,23.9495798556369,derived from fit and fixed length,shared,gamma/length_output*total_rtl
+v_G,h^-1,0.46426909901105723,0.46426909901105723,derived from fit and fixed length,shared,gamma_G_R_tot/kappa_G

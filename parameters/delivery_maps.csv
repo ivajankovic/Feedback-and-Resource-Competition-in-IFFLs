@@ -1,0 +1,3 @@
+mechanism,nominal_q_unit,q_min_ng,q_max_ng,M0_C,r0_C,kbase_C,delivery_multiplier_rho,p_del,K_at_20ng_C,map,status
+model_1,ng,20,100,798.6,798.6,532.4,3.3456289296152404,1.1605277365477336,1781.2128421271539,k0(q)=K_at_20ng*(q/(20 ng))^p_del,"M0,r0,kbase fixed; rho,p_del directly fitted for this circuit arm; unchanged across epsilon"
+model_2,ng,20,100,798.6,798.6,532.4,3.6888344498607384,1.006600546847303,1963.935461105857,k0(q)=K_at_20ng*(q/(20 ng))^p_del,"M0,r0,kbase fixed; rho,p_del directly fitted for this circuit arm; unchanged across epsilon"

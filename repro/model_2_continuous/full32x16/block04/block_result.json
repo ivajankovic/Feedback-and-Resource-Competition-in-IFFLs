@@ -1,0 +1,60 @@
+{
+  "mechanism": "model_2",
+  "cell": "reference",
+  "modality": "RNA",
+  "dose_ng": [
+    20,
+    100
+  ],
+  "loading": [
+    0,
+    1
+  ],
+  "dose_cells": 4,
+  "loading_cells": 16,
+  "time_cells": 1220,
+  "bridge_end_hours": 96.0,
+  "max_state_tube_radius": 0.04068340769173673,
+  "max_residual": 0.043912978109890595,
+  "upper_cumulative_log_burden_slope": {
+    "24": -21.898529517348322,
+    "48": -3.845998218590387
+  },
+  "all_positive_horizons_through48": true,
+  "max_first_cell_production_upper": -1.6638976671589514,
+  "max_interior_cap": -8.317058475411312e-09,
+  "upper_all_T_ge48": -3.658006151199482,
+  "tail_M_matrix_margin": 0.09241540965651356,
+  "all_later_rectangles_strict": true,
+  "maximum_weighted_flow_growth_per_cell": 0.01741685917837335,
+  "seconds": 182.84910249710083,
+  "method": "parameter-degree(3,2)-time-degree7 Bernstein residual tubes; free-RNA absolute-sensitivity Metzler flow; first-cell/interior tests; finite bridge and analytic M-matrix tail",
+  "arithmetic": "custom outward-rounded IEEE754 binary64 primitives; explicit Decimal delivery cover",
+  "passed": true,
+  "residual_validation_chunk": 1,
+  "block_index": 4,
+  "actual_delivered_interval": [
+    4414.881042866134,
+    5405.886893213626
+  ],
+  "nominal_full_cover_target_ng": [
+    20,
+    100
+  ],
+  "global_dose_cells": 32,
+  "local_dose_cells": 4,
+  "parameter_degrees": [
+    3,
+    2
+  ],
+  "total_seconds": 182.8503782749176,
+  "source_sha256": {
+    "certify.py": "974c27eeccd009a48b5e8cbec0dc2284c6028824f411bca68e70b648ea581930",
+    "certify_model_2.py": "228463bdf484c35a50ed901cc48d0e28a390403d7a4049deafd0280dc18e3065",
+    "model_2_rectangle_tubes.py": "68f0504e18ab82e60e38f4e3041548c4758a54fd71d753b76acfa4d7b90e5479",
+    "repression_mechanisms.py": "800ad985cb38b375c5b7fe2223e476d2c6b79160dd6e26319cc1b62373495042",
+    "committed_fit.json": "119640ce00c1bfbb28f74964d5128a4a12a7f4fccdab3679ef9dd8646223b517",
+    "model_config.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0",
+    "run_block.py": "78a27fad428d71e512eb4b072c291ff1e1af80290e530e3f0481919c42d0378a"
+  }
+}

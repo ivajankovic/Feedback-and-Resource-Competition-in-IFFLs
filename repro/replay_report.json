@@ -1,0 +1,71 @@
+{
+  "date_utc": "2026-11-09T09:55:46Z",
+  "passed": true,
+  "gates": {
+    "complete_dose_loading_cover": true,
+    "all_early_positive_horizons": true,
+    "first_cell_strict": true,
+    "later_early_cells_strict": true,
+    "published_24h_bound": true,
+    "published_48h_bound": true,
+    "every_tail_rectangle_strict": true,
+    "published_all_later_bound": true,
+    "tail_comparison_hurwitz": true,
+    "fixed_inputs_unchanged": true,
+    "paired_tail_cells": true
+  },
+  "scope": {
+    "dose_ng": [
+      20,
+      100
+    ],
+    "loading": [
+      0,
+      1
+    ],
+    "horizons": "every finite T>0",
+    "fit": "reference_model_1_RNA committed fit; no refitting or parameter ensemble"
+  },
+  "proposal_source": "regenerated",
+  "proposals_sha256": "8fd42086d9bb8698ecc4ed15dbaa2e388731dfe1daa410aa773970bad81ecce9",
+  "inputs_sha256": {
+    "committed_fit.json": "119640ce00c1bfbb28f74964d5128a4a12a7f4fccdab3679ef9dd8646223b517",
+    "model_config.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0",
+    "model_equations.py": "329f71fa09c415e2f82fa20a96fd2b2d33f490c4e452b2609361860a5054f4e6",
+    "source/models/Repressor_iFFL.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0",
+    "source/simulator/model.py": "d33fe9ce6f90a8b57ec3a356c7925229750560ce96ae4aef13b014a56cd77af6"
+  },
+  "runs": [
+    {
+      "script": "certify.py",
+      "sha256": "974c27eeccd009a48b5e8cbec0dc2284c6028824f411bca68e70b648ea581930",
+      "exit_code": 0,
+      "seconds": 217.67075371742249
+    },
+    {
+      "script": "certify_tail.py",
+      "sha256": "1fc0e7cef7a1b746861333f4aa8aa94e83d8ebb318952dd4f3c193d57743e59f",
+      "exit_code": 0,
+      "seconds": 33.45781660079956
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "binary64_mantissa_bits": 53,
+    "rounding_mode": 1
+  },
+  "reported_bounds": {
+    "24h": -57.70343326714796,
+    "48h": -47.7467861870516,
+    "all_T_ge_48h": -8.541739310171158
+  },
+  "seconds": 251.21128582954407,
+  "limits": [
+    "Custom interval implementation under stated IEEE754 assumptions.",
+    "Independent certification software audit remains outstanding.",
+    "Ordinary diagnostic solves and biological validation are separate."
+  ]
+}

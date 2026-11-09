@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "scope": "Fresh ordinary fixed-fit predictions; not interval certification, experimental validation, or uncertainty propagation.",
+  "dose_ng": 20,
+  "trajectory_horizon_h": 48,
+  "trajectory_time_points": 1601,
+  "solver": {
+    "method": "Radau",
+    "rtol": 2e-12,
+    "atol": 2e-14
+  },
+  "grid_rows": 54,
+  "curve_checks": [
+    {
+      "mechanism": "model_1",
+      "loading": 0.0,
+      "max_scaled_difference_from_archived_curves": 0.0,
+      "archive_agreement_tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "mechanism": "model_1",
+      "loading": 1.0,
+      "max_scaled_difference_from_archived_curves": 0.0,
+      "archive_agreement_tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "loading": 0.0,
+      "max_scaled_difference_from_archived_curves": 0.0,
+      "archive_agreement_tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "mechanism": "model_2",
+      "loading": 1.0,
+      "max_scaled_difference_from_archived_curves": 0.0,
+      "archive_agreement_tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "checks/verify_repression_independent.py": "98f9982a5a07a800891bf993d13a23d3848456c7183e777e2932e5b5ea4321d6",
+    "repro/committed_fit.json": "119640ce00c1bfbb28f74964d5128a4a12a7f4fccdab3679ef9dd8646223b517",
+    "repro/model_config.json": "abfe9d9491c5c2fd4b91530d468ab28bd3182b9281600b9f7b4aa8e85661f6f0",
+    "checks/repression_grid_independent_validation.json": "f02cab673c05efa6e998cfad369e3b62c4bc81a701e419bb4f4a5d4e6e9892da",
+    "figures/make_repression_figures.py": "a4471b75a4a8e437d6481f5fa1a773320afd23743420ae096f2bf9f3b67fb07d"
+  },
+  "output_sha256": {
+    "figures/response_plot_data.npz": "29ceb2a838cfb78f1c405b9806a92478132f21a2faf92eb09065a1b0c0e1cd2b",
+    "figures/response_peak_normalization.json": "0a9dc6a2501fe6d3404eb667feafb26a0f6faabe59a44023e6bf7d0cb33a5351",
+    "figures/repression_response_metrics.pdf": "ffca040e305c30ddb89a65f4baf20d20260decd9633f8422bef0f91632140971",
+    "figures/repression_loading_effects.pdf": "a9edd4230cd13e5f54d6a01a4fc37ab68b7c2f09ef0e184aba0e183aa59abe23"
+  },
+  "elapsed_seconds": 11.027758891999838
+}
